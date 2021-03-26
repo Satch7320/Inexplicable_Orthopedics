@@ -30,10 +30,13 @@ Since we knew the processing worked on the smaller dataset, we processing throug
 Now that we had cleaned up, human readable data, it was time for machines to read instead! We elected to process the data using sklearn's CountVectorizer and feeding the resultant term frequency-inverse document frequency matrices into both Kmeans clustering and Non-Negative Matrix Featurization algorithms.
 
 <center>
-  
+
 |![UFOMostCommon](https://user-images.githubusercontent.com/43886791/112696577-1b383e80-8e54-11eb-84ce-3fb8864f2082.png)|
 |:--:|
 |![UFOLeastCommon](https://user-images.githubusercontent.com/43886791/112696578-1bd0d500-8e54-11eb-8b0f-5f96427779e8.png)|
+
+</center>
+<center>
 
 |![BFMostCommon](https://user-images.githubusercontent.com/43886791/112696778-766a3100-8e54-11eb-9d54-723bf5c7ac31.png)|
 |:--:|
