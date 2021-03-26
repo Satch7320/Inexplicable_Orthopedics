@@ -19,7 +19,7 @@ While still text-based, the processing enabled typical EDA approaches, like visu
   
 Since we knew the processing worked on the smaller dataset, we processing through the thousands and thousands of observations. 
 |![BigfootSightingsBySeason](https://user-images.githubusercontent.com/43886791/112696584-1e332f00-8e54-11eb-9908-7c72c227ab2f.png)|
-|--|
+|:--:|
 |![UFOShapeFormatted](https://user-images.githubusercontent.com/43886791/112697159-090ad000-8e55-11eb-8cf1-5c746a0a80e9.png)|
 |Counting categorical features extracted from html inside a .json file *<sup><sup>so meta, bro</sup></sup>*|
 |![UFOYearsFormatted](https://user-images.githubusercontent.com/43886791/112697220-20e25400-8e55-11eb-80b1-bd1346f3c6da.png)|
@@ -32,21 +32,21 @@ Now that we had cleaned up, human readable data, it was time for machines to rea
 <center>
   
 |![UFOMostCommon](https://user-images.githubusercontent.com/43886791/112696577-1b383e80-8e54-11eb-84ce-3fb8864f2082.png)|
-|--|
+|:--:|
 |![UFOLeastCommon](https://user-images.githubusercontent.com/43886791/112696578-1bd0d500-8e54-11eb-8b0f-5f96427779e8.png)|
 
 |![BFMostCommon](https://user-images.githubusercontent.com/43886791/112696778-766a3100-8e54-11eb-9d54-723bf5c7ac31.png)|
-|--|
+|:--:|
 |The words selected by the NMF algorithm (above) differ from the KMeans algorithm below. It's difficult to say how much comes down to chance, given random initialization, but the models haven't seen all the data yet.|
 |![BFClusterKMeans](https://user-images.githubusercontent.com/43886791/112696892-aadded00-8e54-11eb-87a1-0e206127b7a7.png)|
 </center>
 
-While we can see there are some curious trends here: while there are some arguable trends, why do so many of the terms seem to be grouped alphabetically? Perhaps the results are different once we featurize the entire dataset instead.
+At a glance, success! Looking more closely, some curious things become apparent: while there are some arguable trends, why do so many of the terms seem to be grouped alphabetically? Perhaps the results are different once we featurize the entire dataset instead.
 
 <center>
   
 |![BFTop10WordsKMeansFull](https://user-images.githubusercontent.com/43886791/112700065-4eca9700-8e5b-11eb-9549-be8d9dd5eb6a.png)|
-|--|
+|:--:|
 |![BFTop10WordsNMFFull](https://user-images.githubusercontent.com/43886791/112700068-4eca9700-8e5b-11eb-960b-e02f73d1cc79.png)|
 
 </center>
