@@ -6,7 +6,10 @@ Given the nature of natural language processing, the data required a substantial
 
 |![UFOYearOccurences](https://user-images.githubusercontent.com/43886791/112696566-17a4b780-8e54-11eb-9556-1baa2bfc3ac4.png)|
 |--|
+|![UFOTop10States](https://user-images.githubusercontent.com/43886791/112698025-c77b2480-8e56-11eb-9cf9-947a31743b0a.png)|
+
 |![UFOShapeFormatted](https://user-images.githubusercontent.com/43886791/112697159-090ad000-8e55-11eb-8cf1-5c746a0a80e9.png)|
+|--|
 |![UFOYearsFormatted](https://user-images.githubusercontent.com/43886791/112697220-20e25400-8e55-11eb-80b1-bd1346f3c6da.png)|
 
 |![UFOMostCommon](https://user-images.githubusercontent.com/43886791/112696577-1b383e80-8e54-11eb-84ce-3fb8864f2082.png)|
