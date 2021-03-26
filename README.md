@@ -8,6 +8,7 @@ Given the nature of natural language processing, the data required a substantial
 While still text-based, the processing enabled typical EDA approaches, like visualizing bar plots to identify trends in the data. There's nothing revelatory here, but it is still the easiest and fastest way to identify trends worth investigation!
 
 <center>
+  
 |![UFOYearOccurences](https://user-images.githubusercontent.com/43886791/112696566-17a4b780-8e54-11eb-9556-1baa2bfc3ac4.png)|
 |:--:|
 |Proof of concept: Cleaning up the smaller dataset makes these graphs possible|
@@ -15,6 +16,7 @@ While still text-based, the processing enabled typical EDA approaches, like visu
 |*Watch your head if you live in California, I guess*|
   
 <center>
+  
 Since we knew the processing worked on the smaller dataset, we processing through the thousands and thousands of observations. 
 |![BigfootSightingsBySeason](https://user-images.githubusercontent.com/43886791/112696584-1e332f00-8e54-11eb-9908-7c72c227ab2f.png)|
 |--|
@@ -28,6 +30,7 @@ Since we knew the processing worked on the smaller dataset, we processing throug
 Now that we had cleaned up, human readable data, it was time for machines to read instead! We elected to process the data using sklearn's CountVectorizer and feeding the resultant term frequency-inverse document frequency matrices into both Kmeans clustering and Non-Negative Matrix Featurization algorithms.
 
 <center>
+  
 |![UFOMostCommon](https://user-images.githubusercontent.com/43886791/112696577-1b383e80-8e54-11eb-84ce-3fb8864f2082.png)|
 |--|
 |![UFOLeastCommon](https://user-images.githubusercontent.com/43886791/112696578-1bd0d500-8e54-11eb-8b0f-5f96427779e8.png)|
@@ -41,6 +44,7 @@ Now that we had cleaned up, human readable data, it was time for machines to rea
 While we can see there are some curious trends here: while there are some arguable trends, why do so many of the terms seem to be grouped alphabetically? Perhaps the results are different once we featurize the entire dataset instead.
 
 <center>
+  
 |![BFTop10WordsKMeansFull](https://user-images.githubusercontent.com/43886791/112700065-4eca9700-8e5b-11eb-9549-be8d9dd5eb6a.png)|
 |--|
 |![BFTop10WordsNMFFull](https://user-images.githubusercontent.com/43886791/112700068-4eca9700-8e5b-11eb-960b-e02f73d1cc79.png)|
